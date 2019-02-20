@@ -7,6 +7,33 @@
 a{
     text-decoration: none;
 }
+@font-face {
+    font-family: 'iconfont';  /* project id 1019598 */
+    src: url('//at.alicdn.com/t/font_1019598_k4y3y6smct.eot');
+    src: url('//at.alicdn.com/t/font_1019598_k4y3y6smct.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1019598_k4y3y6smct.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1019598_k4y3y6smct.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1019598_k4y3y6smct.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1019598_k4y3y6smct.svg#iconfont') format('svg');
+}
+@font-face {
+    font-family: 'iconfont1';  /* project id 1030313 */
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot');
+    src: url('//at.alicdn.com/t/font_1030313_drblod36gi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030313_drblod36gi.svg#iconfont') format('svg');
+}
+.header-car i{
+    font-family: iconfont1;
+    font-style: normal;
+}
+ i{
+    font-family: iconfont;
+    font-style: normal;
+}
+
 /*小米首页导航开始*/
 .mi_header{
     width: 100%;
